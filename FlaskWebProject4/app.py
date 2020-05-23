@@ -16,6 +16,7 @@ def hello():
     """Renders a sample page."""
     return "Hello World!"
 
+# create decorator index for testing
 @app.route('/index')
 def index():
     return "<h1> Axioms.io!!!</h1>"
